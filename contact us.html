@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="refresh" content="10">
+	<meta name="description" content="We sell mobile phones as a reasonable price.">
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/contactpage.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!--Creating a division for a logo and a navbar.-->
+	<div class="header">
+	<div class="container">
+		<div class="navbar">
+		<div class="logo">
+			<img src="../images/logo.jpeg" width="75px" >
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="product.html">Product</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li class="selected"><a href="contact us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		</div>
+	</div>
+	</div>
+
+	<div class="connectwithus">
+		<h1>Connect with us</h1>
+		<p>We would love to respond to your queries. Feel free to connect with us.<br>Any feedback is greatly appreciated.</p>
+		<div class="contact-box">
+			<!--The left side of the page-->
+			<div class="contact-left">
+				<h3>Send your request</h3>
+				<!--Making a form with some personal information as input-->
+					<form name="feedbackform" onsubmit="validateForm()">
+						<div class="input-row">
+							<div class="input-group">
+								<label>Name</label>
+								<input type="text" name="fname" placeholder="Full Name">
+							</div>
+							<div class="input-group">
+								<label>Phone</label>
+								<input type="text" name="cont" placeholder="Contact no">
+							</div>
+						</div>
+						<div class="input-row">
+							<div class="input-group">
+								<label>Email</label>
+								<input type="email" name="mail" placeholder="example@domain.com">
+							</div>
+							<div class="input-group">
+								<label>Subject</label>
+								<input type="text" name="sub" placeholder="Your content here">
+							</div>
+						</div>
+
+						<label>Message</label>
+						<textarea rows="5" name="message" placeholder="Your Message"></textarea>
+						<button type="submit">Send</button>
+					</form>
+			</div>
+			<!--The right side of the page-->
+			<div class="contact-right">
+				<h3>Reach us</h3>
+				<table>
+					<tr>
+						<td>Emali</td>
+						<td>Imobilessupport@gmail.com</td>
+					</tr>
+					<tr>
+						<td>Phone</td>
+						<td>01-2220077</td>
+					</tr>
+					<tr>
+						<td>Address</td>
+						<td>212, Civil complex, 7th floor<br>Jorpati, Kathmandu</td>
+					</tr>
+				</table>
+				<p style="margin-top: 30px;">Contact us on facebook</p>
+				<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook" style="color: #fff;font-size: 30px;margin-top: 10px;"></a>
+			</div>
+		</div>
+	</div>
+	<!--Footer division-->
+	<div class="ending">
+		<div class="lefttext">
+			<h2>About Us</h2><br>
+			<p class="last">This page was created for people to remove the hassle of need to go to market to just buy a phone.<br>
+				Why waste time and go out when you can chop from home?<br>
+				2022<br>
+				&copy Imobiles
+			</p>
+		</div>
+		<div class="righttext">
+			<p class="last">Email: Imobilessupport@gmail.com</p>
+			<p class="last">Contact No. 01-2220077</p>
+			<p class="last">Note:<br>You can always reach out to us through contact us page in the website.</p>
+		</div>
+	</div>
+</body>
+</body>
+<script type="text/javascript" src="../Javascript/formvalidate.js"></script>
+</html>

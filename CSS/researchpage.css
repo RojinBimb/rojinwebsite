@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}	
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;	
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+a{
+	color: blue;
+	text-decoration: none;
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.logo img{
+	border-radius: 50%;
+}
+a:hover{
+	color: black;
+	font-size: 120%;
+}
+nav li.selected{
+	background-color: #ffff33;
+}
+body{
+	background: radial-gradient(#ffff, #ffdada);
+	overflow-x: hidden;
+}
+.samsung h2{
+	font-size: 35px;
+	margin-left: 20px;
+	margin-right: 30px;
+	background-color: orange;
+}
+.samsung p{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.dealayo h2{
+	font-size: 35px;
+	margin-left: 20px;
+	margin-right: 30px;
+	background-color: orange;
+	margin-top: 20px;
+}
+.dealayo p{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	line-height: 1.5;
+}
+.khalti h2{
+	font-size: 35px;
+	margin-left: 20px;
+	margin-right: 30px;
+	background-color: orange;
+	margin-top: 20px;
+}
+.khalti p{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	line-height: 1.5;
+}
+.esewa h2{
+	font-size: 35px;
+	margin-left: 20px;
+	margin-right: 30px;
+	background-color: orange;
+	margin-top: 20px;
+}
+.esewa p{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	line-height: 1.5;
+}
+.freshworks h2{
+	font-size: 35px;
+	margin-left: 20px;
+	margin-right: 30px;
+	background-color: orange;
+	margin-top: 20px;
+}
+.freshworks p{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	line-height: 1.5;
+}
+.ending{
+	background-color: #4d4dff;
+	display: flex;
+	height: 200px;
+	margin-top: 5px;
+	padding: 20px;
+}
+.lefttext h2, .last{
+	color: white;
+	width: 50%;
+	margin-right: 500px;	
+}
+.righttext{
+	color: white;
+	width: 50%;
+	margin-left: 400px;
+}

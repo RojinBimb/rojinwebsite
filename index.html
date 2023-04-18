@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="refresh" content="10">
+	<meta name="description" content="We sell mobile phones as a reasonable ">
+	<title>iMobiles | Ecommerce mobiles</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+	<!--Creating a division for a logo and a navbar.-->
+	<div class="header">
+	<div class="container">
+		<div class="navbar">
+		<div class="logo">
+			<img src="Images/logo.jpeg" width="75px" >
+		</div>
+		<nav>
+			<ul>
+				<li class="selected"><a href="index.html">Home</a></li>
+				<!-- <li><a href="product.html">Product</a></li> -->
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="research.html">Research</a></li>
+				<!-- <li><a href="contact us.html">Contact Us</a></li> -->
+			</ul>
+		</nav>
+		</div>
+		<div class="row">
+			<div class="col-2">
+				<h1>Find phones of all<br>types and categories!</h1>
+				<p>Today or any day that phone<br>can ring and bring good news.</p>
+				<!-- <a href="product.html" class="btn">Explore Now &#8594;</a> -->
+			</div>
+			<div class="col-2">
+				<img src="Images/man.png">
+			</div>
+		</div>
+	</div>
+	</div>
+	<!--Slideshow Container-->
+	<div class="slideshow-container">
+		<!-- Full-width images with number and caption text -->
+		<div class="mySlides fade">
+			<img src="Images/slider1.jpg">
+		</div>
+		<div class="mySlides fade">
+			<img src="Images/slider2.jpg">
+		</div>
+		<div class="mySlides fade">
+			<img src="Images/slider3.jpg">
+		</div>
+		<div class="mySlides fade">
+			<img src="Images/slider4.jpg">
+		</div>
+		<div class="mySlides fade">
+			<img src="Images/slider5.jpg">
+		</div>
+	</div>
+	<div class="ending">
+		<div class="lefttext">
+			<h2>About Us</h2><br>
+			<p class="last">This page was created for people to remove the hassle of need to go to market to just buy a phone.<br>
+				Why waste time and go out when you can chop from home?<br>
+				2022<br>
+				&copy Imobiles
+			</p>
+		</div>
+		<div class="righttext">
+			<p class="last">Email: Imobilessupport@gmail.com</p>
+			<p class="last">Contact No. 01-2220077</p>
+			<p class="last">Note:<br>You can always reach out to us through contact us page in the website.</p>
+		</div>
+	</div>
+</body>
+<!--Javascript for creating a slideshow-->
+<script type="text/javascript">
+	let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</html>
